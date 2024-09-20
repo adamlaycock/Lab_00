@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+The issue with plotting hobbies is that there would be far too many unique values which would correlate to far too many bars for meaningful visualisation. This could be solved by grouping the hobbies into categories, e.g. knitting, crochet, and painting become an 'Arts' category. This reduces the total number of bars and adds more variety in the bar height.
