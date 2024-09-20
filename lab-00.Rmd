@@ -25,7 +25,8 @@ team_data <- tibble(
              "slategray3", "powderblue", "violetred"),
   hobby = c("Knitting", "Crochet", "Guitar", 
             "Climbing", "Swimming", "Netball"),
-  favourite_number = c(7, 4, 7, 10, 6, 4)
+  favourite_number = c(7, 4, 7, 10, 6, 4),
+  hobby_category = c("Arts", "Arts", "Music", "Sports", "Sports", "Sports")
   )
 
 team_data
@@ -70,3 +71,11 @@ p2
 ```
 
 The issue with plotting hobbies is that there would be far too many unique values which would correlate to far too many bars for meaningful visualisation. This could be solved by grouping the hobbies into categories, e.g. knitting, crochet, and painting become an 'Arts' category. This reduces the total number of bars and adds more variety in the bar height.
+
+```{r improved-hobby-plot}
+p3 <- ggplot(team_data, aes(x = hobby_category)) + geom_bar()
+p3 + labs(x = "Hobby Category", 
+          y = "Count",
+          title = "Barchart of count of hobby categories for each group member")
+```
+
