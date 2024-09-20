@@ -79,3 +79,4 @@ p3 + labs(x = "Hobby Category",
           title = "Barchart of count of hobby categories for each group member")
 ```
 
+This is a test sentence.
