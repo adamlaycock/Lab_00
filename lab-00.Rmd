@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+The plot shows a bar chart of each group member's favourite numbers, with the height being proportional to the magnitude of the number.
 
 ### Exercises 19
 
