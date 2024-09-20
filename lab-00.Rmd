@@ -54,9 +54,9 @@ The plot shows a bar chart of each group member's favourite numbers, with the he
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Favourite Number", 
+          y = "Github Username",
+          title = "Barchart of favourite number for each GitHub User")
 ```
 
 *Remove this text (including the stars), and add your answer for Exercise 19 here.*
