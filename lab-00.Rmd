@@ -59,7 +59,7 @@ p1 + labs(x = "Favourite Number",
           title = "Barchart of favourite number for each GitHub User")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+labs() is a label function that will assign strings to be displayed on the p1 plot, takes arguments x, y, and title for the x-axis, y-axis, and title respectively.
 
 ### Exercise 20
 
